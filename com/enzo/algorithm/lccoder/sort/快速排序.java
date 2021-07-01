@@ -24,7 +24,7 @@ public class 快速排序 {
 //
 //
 
-        int[] a = new int[]{4,5,1,6,2,7,3,8};
+        int[] a = new int[]{-7,4,5,1,6,2,7,3,8,89};
         quickSort(a, 0, a.length -1);
 
         System.out.println(Arrays.toString(a));

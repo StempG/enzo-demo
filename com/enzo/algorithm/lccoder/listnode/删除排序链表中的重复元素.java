@@ -32,12 +32,24 @@ public class 删除排序链表中的重复元素 {
         ListNode(int val) {
             this.val = val;
         }
+
+
+        @Override
+        public String toString() {
+            return "ListNode{" +
+                    "val=" + val +
+                    ", next=" + next +
+                    '}';
+        }
     }
 
 
 
 
     public static ListNode deleteDuplicates(ListNode head) {
+
+
+        // TODO: 2021/5/11 未ac 以下的解法有问题 
         if (head == null){
             return null;
         }
